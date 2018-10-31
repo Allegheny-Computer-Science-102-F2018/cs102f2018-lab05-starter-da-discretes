@@ -40,15 +40,17 @@ It will show me how to execute the letters which will have assigned values to th
 
 ### Idea 3
 1) Explain your idea for a class project.
+Create a program to pull information regarding searching done on google for the top cryptocurrencies in the market.
 
 2) How is the idea connected to computer science?
-
+Cryptocurrency has recently been very popular in computer science through its use of blockchain technology.
 3) What is the article's reference to support this idea? Note: Articles are no older than five years
+ The technology and economic determinants of cryptocurrency exchangerates: The case of BitcoinXin
 
 4) What is the central thesis to the article?
-
+Overall, the analysis suggests that:(1) technology factors play important roles in determining the Bitcoinexchange rate in terms of both mining technology and public recogni-tion
 5) How will this article support your idea?
-
+Article shows that technology and public recognition play keys roles in bitcoin exchange rate.
 
 ### Idea 4
 1) Explain your idea for a class project.
