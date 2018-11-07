@@ -16,9 +16,9 @@ Please be sure that you justify why your idea is of interest to discrete structu
 ### Idea 1
 1) Explain your idea for a class project.
 I want to assign every 2 letters to a musical note and pull a random article from a news website. Afterward the program would
-play a tune from reading on the website.  
+play a tune from reading on the website.
 2) How is the idea connected to computer science?
-It would require reading a document parse. Assigning different letters musical notes from Do to Do. It would also require a mucsic player in the terminal or another library supported by python.   
+It would require reading a document parse. Assigning different letters musical notes from Do to Do. It would also require a mucsic player in the terminal or another library supported by python.
 3) What is the article's reference to support this idea? Note: Articles are no older than five years
 https://www.quora.com/How-do-I-create-a-music-player-from-scratch-using-Python-programming-language-for-Windows
 4) What is the central thesis to the article?
@@ -42,7 +42,6 @@ This article discusses how current methodologies to recommend songs depends on l
 5) How will this article support your idea?
 This idea is about recommending songs based on audio cues. This article will be helpful to see how they determine similar songs. This paper will be using more complicated technology, but the core ideas will be very helpful.
 
-
 ### Idea 3
 1) Explain your idea for a class project.
 Create a program to pull information regarding searching done on google for the top cryptocurrencies in the market.
@@ -59,15 +58,19 @@ Article shows that technology and public recognition play keys roles in bitcoin 
 
 ### Idea 4
 1) Explain your idea for a class project.
+Application which allows you to compute various types of distributions automatically given some parameters. Some distributions include binomial distribution, negative binomial distribution, poisson distribution, and geometric distribution.
 
 2) How is the idea connected to computer science?
+Statistics is an integral part to many computing systems. Having a program such as this could be very helpful. Also, we would need to se lists and other data structures, as well as being able to graph our results.
 
 3) What is the article's reference to support this idea? Note: Articles are no older than five years
+https://www.sciencedirect.com/science/article/pii/S0010938X15300822
 
 4) What is the central thesis to the article?
+It is talking about corrosion of pipelines can be modeled and compared between multiple types of probabilistic distributions.
 
 5) How will this article support your idea?
-
+This is one example of a project which extensively uses distributions. A program such as the one proposed could help in the computations of this project.
 
 ### Idea 5
 1) Explain your idea for a class project.
