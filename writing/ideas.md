@@ -28,14 +28,19 @@ It will show me how to execute the letters which will have assigned values to th
 
 ### Idea 2
 1) Explain your idea for a class project.
+Design a program to recommend similar songs to an input song. There is a large dataset called 'Million Song Dataset' which provides a lot of data that we can use. It has a large amount of song's audio features; so we can use this to pick a song, and find a song which has similar audio features.
 
 2) How is the idea connected to computer science?
+It is possible to extend this project into a machine learning project, which is very computer science related. However, to do a basic system we will need to use lists and other data structures. Also, determining similarity will need to use some numerical values to compare various audio features. Finally we will need to use generators so that we don't save large amounts of song data all at the same time; we only get it when we need it.
 
 3) What is the article's reference to support this idea? Note: Articles are no older than five years
+https://cs224d.stanford.edu/reports/BalakrishnanDixit.pdf
 
 4) What is the central thesis to the article?
+This article discusses how current methodologies to recommend songs depends on listener's feedback which is not very good. It's main idea is to create a system which uses the actual lyrics and melodies to determine similar songs. This is done in the paper using artificial intelligence ideas such as neural networks.
 
 5) How will this article support your idea?
+This idea is about recommending songs based on audio cues. This article will be helpful to see how they determine similar songs. This paper will be using more complicated technology, but the core ideas will be very helpful.
 
 
 ### Idea 3
