@@ -74,11 +74,12 @@ This is one example of a project which extensively uses distributions. A program
 
 ### Idea 5
 1) Explain your idea for a class project.
-
+Create a algorithm that will help us determine who to start from week to week in fantasy football
 2) How is the idea connected to computer science?
-
-3) What is the article's reference to support this idea? Note: Articles are no older than five years
-
+The algorithm will predict how much a player will be expected to score that week.
+3) What is the article's reference to support this idea? Note:  Articles are no older than five years
+https://www.nisivoccia.com/wp-content/uploads/2016/10/115_report.pdf
 4) What is the central thesis to the article?
-
+The goal in this article is to use machine learning techniques to get the best potential returns when playing these games.
 5) How will this article support your idea?
+This article shows us what algorithms to use
