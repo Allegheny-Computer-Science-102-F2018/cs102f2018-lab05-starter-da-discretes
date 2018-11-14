@@ -18,7 +18,7 @@ Please be sure that you justify why your idea is of interest to discrete structu
 I want to assign every 2 letters to a musical note and pull a random article from a news website. Afterward the program would
 play a tune from reading on the website.
 2) How is the idea connected to computer science?
-It would require reading a document parse. Assigning different letters musical notes from Do to Do. It would also require a mucsic player in the terminal or another library supported by python.
+It would require reading a document parse. Assigning different letters musical notes from Do to Do. It would also require a music player in the terminal or another library supported by python.
 3) What is the article's reference to support this idea? Note: Articles are no older than five years
 https://www.quora.com/How-do-I-create-a-music-player-from-scratch-using-Python-programming-language-for-Windows
 4) What is the central thesis to the article?

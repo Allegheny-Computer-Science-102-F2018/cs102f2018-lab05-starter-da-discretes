@@ -1,24 +1,15 @@
 # Proposal for Da Discretes
 
 After thinking of multiple ideas, we have narrowed down our options to one
-singular project. A lot of our project ideas surrounded music, and this one is
-no different. Our original idea for this project was to create some sort of tune
-for a give article. This broader idea was funneled down to having a song created
-for a news article based on the tone of the words in the text. So, if the
-article is sad or angry, the tone of this song will be slower or more of a lower
-pitch. If the paper is happy, the song will reflect this by having a higher
-pitches and more up tempo beats. This would be interesting to see what you can
-expect of an article without ever reading any of its content.
+singular project. A lot of our project ideas surrounded music, and this one is no different. Our original idea for this project was to create some sort of tune for a give article. This broader idea was funneled down to having a song created for a news article based on the tone of the words in the text. So, if the article is sad or angry, the tone of this song will be slower or more of a lower pitch. If the paper is happy, the song will reflect this by having a higher pitches and more up tempo beats. This would be interesting to see what you can expect of an article without ever reading any of its content. For example, news articles are usually always about bad events that are happening in the world. This would lead to the music to be slower and lower pitch, compared to maybe a sports article that has amazing statistics about a team and would have an uptempo beat.
 
-This idea touches a few different areas of computer science. For one, some sort
-of rudimentary sentiment analysis will need to be completed. A package such as
-*gensim* will need to be used which allows you to perform sentiment analysis on
-text data using python. We may not even need to use a package such as this. One
-approach we could be taking is to make the pitch higher if the current word in
-the paper is a 'good' word and lower the pitch if it is a 'bad' word. These
-words could be determined using some sort of dataset full of al englis language
-words where they are split into positive and negative words.
+This idea touches a few different areas of computer science. For one, some sort of rudimentary sentiment analysis will need to be completed. A package such as *gensim* will need to be used which allows you to perform sentiment analysis on text data using python. We may not even need to use a package such as this. One approach we could be taking is to make the pitch higher if the current word in the paper is a 'good' word and lower the pitch if it is a 'bad' word. These words could be determined using some sort of dataset full of all english language words where they are split into positive and negative words. The more positive or negative words there are will be reflected in the music. We will be able to tell whether the article is leaning more toward a optimistic or pessimistic tone in the information that is being delivered.
 
-Finally, we will need to produce sounds. Luckily there is a package called music
-in python which you can install just with using *pip install music*. This will
-allow us to custom make sounds and music in python.
+Finally, we will need to produce sounds. Luckily there is a package called music in python which you can install just with using *pip install music*. This will allow us to custom make sounds and music in python. This will allow us to use several different  methods that we have discussed in class including parsing, math functions, etc. And also using sentiment analysis which will allow us to create this music player and expand further on our knowledge of Python. We will also be using web scraping to gather news articles. We don’t know for sure if this will be a good tool because of the possibilities of double meanings of some positive words and also if there is a positive tone to a negative situation. Also another challenge we might face is that if there is something that the person reporting the news article could see a situation positive but me as the reader could see it negative. Below are the sources which we will use to accomplish the project.
+
+Sources:
+Gensim:
+https://radimrehurek.com/gensim/
+Python Music:
+https://pypi.org/project/music/
+Related Question: https://www.quora.com/How-do-I-create-a-music-player-from-scratch-using-Python-programming-language-for-Windows
