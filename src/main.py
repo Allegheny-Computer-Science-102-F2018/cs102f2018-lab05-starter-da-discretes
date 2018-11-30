@@ -66,7 +66,7 @@ def main(article):
     # print(next(get_positive()))
 
     audio_files = ("negative1.wav", "negative2.wav", "negative3.mp3", "negative4.wav", "positive1.wav",  "positive2.wav",  "positive3.wav",  "positive4.wav",  "positive5.wav")
-    readWAV(*audio_files, current_tone)
+    readWAV(*audio_files, current_tone = current_tone)
 
 # Main method invocation
 if __name__ == "__main__":
