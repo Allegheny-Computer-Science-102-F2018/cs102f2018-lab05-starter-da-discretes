@@ -36,37 +36,50 @@ def get_article_contents(file_name):
                     words.append(new_word)
     return words
 
-def readWAV(*audio_files, current_tone):
+def readWAV(*audio_files, positive_tone, negative_tone):
 
     audios = ["sounds/"+str(i) for i in audio_files]
 
+    avg_tone = positive_tone / (positive_tone + negative_tone)
+    ind_to_play = int(len(audios) * avg_tone)
+
+    if (ind_to_play >= len(audios)):
+        ind_to_play = len(audios) - 1
+
+    print("Avg of tone = ", avg_tone)
+    print("Length of audios = ", len(audios))
+    print("Index to play = ", ind_to_play)
+
     pygame.init()
 
-    pygame.mixer.music.load("sounds/"+audio_files[4])
+    pygame.mixer.music.load("sounds/"+audio_files[ind_to_play])
 
     pygame.mixer.music.play()
+    
     time.sleep(10)
 
 def main(article):
-    current_tone = 0
+    positive_tone = 0
+    negative_tone = 0
 
     article_contents = get_article_contents(article)
 
     for word in article_contents:
         for pos_word, neg_word in zip(get_positive(), get_negative()):
             if word == pos_word:
-                current_tone = current_tone + 1
+                positive_tone = positive_tone + 1
                 break
             if word == neg_word:
-                current_tone = current_tone - 1
+                negative_tone = negative_tone + 1
                 break
 
-    print(current_tone)
+    print("Positive Tone = ",positive_tone)
+    print("Negative Tone = ",negative_tone)
 
     # print(next(get_positive()))
 
     audio_files = ("negative1.wav", "negative2.wav", "negative3.mp3", "negative4.wav", "positive1.wav",  "positive2.wav",  "positive3.wav",  "positive4.wav",  "positive5.wav")
-    readWAV(*audio_files, current_tone = current_tone)
+    readWAV(*audio_files, positive_tone = positive_tone, negative_tone = negative_tone)
 
 # Main method invocation
 if __name__ == "__main__":
