@@ -1,6 +1,4 @@
 import re
-import wave
-import pyglet
 import pygame
 import time
 
@@ -55,7 +53,7 @@ def readWAV(*audio_files, positive_tone, negative_tone):
     pygame.mixer.music.load("sounds/"+audio_files[ind_to_play])
 
     pygame.mixer.music.play()
-    
+
     time.sleep(10)
 
 def main(article):
@@ -75,8 +73,6 @@ def main(article):
 
     print("Positive Tone = ",positive_tone)
     print("Negative Tone = ",negative_tone)
-
-    # print(next(get_positive()))
 
     audio_files = ("negative1.wav", "negative2.wav", "negative3.mp3", "negative4.wav", "positive1.wav",  "positive2.wav",  "positive3.wav",  "positive4.wav",  "positive5.wav")
     readWAV(*audio_files, positive_tone = positive_tone, negative_tone = negative_tone)
