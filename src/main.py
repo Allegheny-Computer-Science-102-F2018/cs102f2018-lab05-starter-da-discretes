@@ -1,12 +1,14 @@
 import re
 import pygame
 import time
+import sys
 
 
 # Date = 11 December 2018
 # Version = 1
 # Original Author = Austin Bristol, Karol Vargas, David Perez, Francisco Guzman
 # Description: Program that plays a sound file based on the sentiment of an article
+# To run: python3 main.py <name of text file in input directory>
 
 
 def get_positive():
@@ -85,11 +87,7 @@ def readWAV(*audio_files, positive_tone, negative_tone):
     avg_tone = positive_tone / (positive_tone + negative_tone)
 
     # Get an index of the song based on sentiment
-    ind_to_play = int(len(audios) * avg_tone)
-
-    # If 100% positive, we need to subtract by 1 to get last index.
-    if (ind_to_play >= len(audios)):
-        ind_to_play = len(audios) - 1
+    ind_to_play = int((len(audios) - 1) * avg_tone)
 
     # Print debug information
     print("Avg of tone = ", avg_tone)
@@ -135,6 +133,7 @@ def main(article):
                 break
 
     # Print debug results
+    print("Total words = ",len(article_contents))
     print("Positive Tone = ",positive_tone)
     print("Negative Tone = ",negative_tone)
 
@@ -146,4 +145,7 @@ def main(article):
 
 # Main method invocation
 if __name__ == "__main__":
-    main("test_article.txt")
+    title = "test_article.txt"
+    if len(sys.argv) > 1:
+        title = sys.argv[1]
+    main(title)

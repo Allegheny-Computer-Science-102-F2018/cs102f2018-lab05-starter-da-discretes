@@ -2,6 +2,11 @@
 # cs102-F2018-lab05-starter
 # Starter Files
 
+To run the code place an article in the input directory.
+Execute the code by traversing to the src directory and typing:
+
+``` python3 main.py <name of article file> ```
+
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this repository contains the starter files for Lab 5 in Computer Science 102.
 
 ## Introduction

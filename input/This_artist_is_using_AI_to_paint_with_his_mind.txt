@@ -1,0 +1,75 @@
+In recent months, the artistic provocateur and technologist Alexander Reben has
+devoted his time to producing a series of visually arresting paintings.
+
+And yet, the California-based artist and MIT-trained roboticist has yet to pick
+up a brush or a tube of paint.
+
+His technique relies instead on a new creative tool that artists such as Reben
+are just beginning to explore: artificial intelligence. With the help of
+algorithms, Reben is producing images in collaboration with machine
+intelligence. The images are eventually reproduced physically in a Chinese town
+that is home to artists who specialize in re-creating works of art on the
+canvas, completing what Reben refers to as “a robotic loop of art-making.”
+
+“It’s the ultimate artist dream to lie in a hammock and think about art that is
+then generated for them,” he said, arguing that his latest series of paintings
+is the first step in that direction. “There may be a time when you could be
+lying in bed listening to sounds and a computer will decipher which sounds you
+like the most, allowing you to make your own custom songs based on your brain’s
+preferences."
+
+"Computers might end bands the same way they might make anyone a painter,” he
+added.
+
+Reben may be onto something. In October, a portrait made by algorithm became the
+first example of machine-created art to be sold at a major auction house,
+according to Yahoo News. The price for the portrait of Edmond de Belamy:
+$432,500.
+
+The work was produced by a Paris-based collective that seeks to “democratize
+art,” Yahoo reported. To create their masterpiece, the group fed a computer
+program thousands of classic portraits. Instead of a signature, the auction
+house Christie’s said, the group included a mathematical formula on the bottom
+right, using Gallic script.
+
+“This portrait, however, is not the product of a human mind,” Christie’s noted.
+“It was created by an artificial intelligence, an algorithm defined by that
+algebraic formula with its many parentheses.”
+
+Reben said his technique begins with a computer model that combines words
+together to generate a single — often unsettling — image. The artificially
+intelligent program might combine the words “clock” and “jellyfish,” for
+example, creating a melted visualization that looks like the spawn of a
+psychedelic art exhibit and a nightmarish dream. The results are paired with
+other images, creating a “child” image that somehow enhances the visual chaos,
+according to Reben.
+
+When Reben views those images, he said, AI measures his brain waves and body
+signals and selects which image he likes best. An image that passed the
+likability test undergoes several more rounds of AI retouching to enhance
+resolution. Once completed, the finished images are sent to China, where they
+are painted by hand.
+
+“It’s going to be their best effort and interpretation of what they see,” Reben
+said, referring to the painter’s final product. “That whole loop from my brain
+waves to an anonymous painter is a really interesting chain.”
+
+Reben plans to have AI scan finished paintings to decipher what’s inside them
+and come up with a title.
+
+This is not Reben’s first time delving into AI-inspired artwork with a hint of
+dark humor. Earlier this year, he attempted to train artificial intelligence to
+create the sort of generic messages that someone might find in fortune cookies.
+Instead of producing the kind of playful and seemingly vaguely perceptive advice
+known to bring a smile to people’s faces, Reben’s technology turned dark — and
+undeniably weird, with the majority of the messages being “very negative,”
+according to the artist.
+
+Reben said he finds the creative potential of AI — especially when it’s paired
+with human creativity — “endlessly interesting.”
+
+“The future may not be Terminators, but a lot of human-machine collaboration,”
+he said.
+
+The artists' latest paintings, six of which are being painted in China, already
+have a waiting list, he said.
